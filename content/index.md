@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-# Home page
+# Home
 
 ![alt text](assets/img/me.jpg)
 

@@ -14,7 +14,8 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
     color: #333;
 }
 
@@ -23,8 +24,25 @@
 }
 
 @media (max-width: 767px) {
+    body {
+        font-size: 0.9rem;
+    }
+
     .header {
         flex-direction: column;
+    }
+
+    .site-header {
+        align-items: center;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .title h1 {
+        font-size: 1.4rem;
     }
 
     .nav ul {
@@ -52,5 +70,10 @@
         line-height: 2em;
         text-align: center;
         cursor: pointer;
+    }
+
+    .main img {
+        width: 200px;
+        height: 200px;
     }
 }

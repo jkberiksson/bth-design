@@ -1,0 +1,45 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 1rem 4rem;
+
+    img {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .title a {
+        text-decoration: none;
+    }
+
+    h1 {
+        color: $background-alternative-color;
+        margin-left: 1rem;
+        font-family: $secondary-font;
+    }
+}
+
+.header a,
+.header .nav a {
+    color: $background-alternative-color;
+}
+
+.header .nav a {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    border-bottom: 2px solid $background-alternative-color;
+}
+
+.hidden {
+    display: none !important;
+}
