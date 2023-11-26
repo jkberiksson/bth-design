@@ -4,7 +4,7 @@ Description: This is my technologies page.
 Template: technologies
 ---
 
-# Reports
+# Analysis
 
 <div class="box box-1">
 <a href="./analysis/01_colors">

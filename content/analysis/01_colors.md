@@ -1,7 +1,7 @@
 ---
 Title: Analysis
 Description: This is my technology page.
-Template: Report
+Template: analysis
 ---
 
 # Färg

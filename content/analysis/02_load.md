@@ -1,6 +1,7 @@
 ---
 Title: Analysis
 Description: This is my technology page.
+Template: analysis
 ---
 
 # Laddningstider
