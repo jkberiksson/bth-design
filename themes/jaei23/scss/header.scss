@@ -2,11 +2,16 @@
 .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header {
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-bottom: 1px solid $highlights;
     padding: 1rem 4rem;
+
+    .logo {
+        height: 100px;
+    }
 
     img {
         border-radius: 100%;
@@ -19,7 +24,7 @@
     }
 
     h1 {
-        color: $background-alternative-color;
+        color: $font-color;
         margin-left: 1rem;
         font-family: $secondary-font;
     }
@@ -27,7 +32,7 @@
 
 .header a,
 .header .nav a {
-    color: $background-alternative-color;
+    color: $font-color;
 }
 
 .header .nav a {
@@ -37,7 +42,7 @@
 }
 
 .header .nav a:hover {
-    border-bottom: 2px solid $background-alternative-color;
+    border-bottom: 2px solid $highlights;
 }
 
 .hidden {

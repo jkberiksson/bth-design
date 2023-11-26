@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: $background-alternative-color;
+    background-color: $secondary-background-color;
     padding: 4rem;
-    color: $font-alternative-color;
+    color: $font-color;
 
     a {
-        color: $font-alternative-color;
+        color: $font-color;
         text-decoration: none;
         margin-left: 1rem;
     }

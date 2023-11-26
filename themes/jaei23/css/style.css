@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,8 +7,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -313,32 +313,30 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #93b1a6;
 }
 
 code {
   margin: 0 0.1em;
-  padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  padding: 0.1em 1em;
+  border: 1px solid #93b1a6;
   border-radius: 0.3em;
-  background: #f5f5f5;
-  font-family: monospace;
+  background: #f0f3f4;
   font-size: 0.85rem;
   line-height: 1.9824;
 }
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #93b1a6;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #93b1a6;
 }
 pre code {
   display: block;
   margin: 0;
-  padding: 1.1111em 0;
+  padding: 1.1111em 1em;
   border: 0 none;
-  background: transparent;
   overflow-x: auto;
   line-height: 1.4;
 }
@@ -347,11 +345,15 @@ pre code {
 .site-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header {
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-bottom: 1px solid #93b1a6;
   padding: 1rem 4rem;
+}
+.header .logo {
+  height: 100px;
 }
 .header img {
   border-radius: 100%;
@@ -362,14 +364,14 @@ pre code {
   text-decoration: none;
 }
 .header h1 {
-  color: #739072;
+  color: #040d12;
   margin-left: 1rem;
   font-family: "Oswald", sans-serif;
 }
 
 .header a,
 .header .nav a {
-  color: #739072;
+  color: #040d12;
 }
 
 .header .nav a {
@@ -379,7 +381,7 @@ pre code {
 }
 
 .header .nav a:hover {
-  border-bottom: 2px solid #739072;
+  border-bottom: 2px solid #93b1a6;
 }
 
 .hidden {
@@ -390,12 +392,12 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #739072;
+  background-color: #cad3d4;
   padding: 4rem;
-  color: #eee;
+  color: #040d12;
 }
 .footer a {
-  color: #eee;
+  color: #040d12;
   text-decoration: none;
   margin-left: 1rem;
 }
@@ -416,6 +418,30 @@ pre code {
     font-size: 1.4rem;
   }
 }
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f3f4;
+  color: #040d12;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 .main {
   flex: 1 0 auto;
   max-width: 960px;
@@ -424,7 +450,11 @@ pre code {
   transform: translateX(-50%);
   padding: 2rem;
 }
-.main img {
+.main a {
+  color: #040d12;
+}
+
+.landingpage img {
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -435,22 +465,22 @@ pre code {
   margin: 30px 0;
 }
 
-.landingpage {
+.technologies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
 .box {
-  background-color: #739072;
+  background-color: #93b1a6;
   padding: 20px;
   text-align: center;
 }
 .box a {
-  color: #eee;
+  color: #040d12;
 }
 
-.landingpage h1 {
+.technologies h1 {
   grid-column: span 3;
   justify-self: center;
 }
@@ -483,7 +513,7 @@ pre code {
   grid-column: span 3;
 }
 
-.main.technology {
+.technology {
   display: flex;
   gap: 1rem;
 }
@@ -491,11 +521,11 @@ pre code {
 .sidebar {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #739072;
+  border-right: 1px solid #93b1a6;
   padding-right: 1rem;
 }
 .sidebar .title {
-  color: #739072;
+  color: #040d12;
 }
 .sidebar ul {
   display: flex;
@@ -508,12 +538,31 @@ pre code {
   padding: 0;
 }
 .sidebar a {
-  color: #181818;
+  color: #040d12;
   font-weight: 500;
 }
 
 pre code {
   font-size: 10px;
+}
+
+.report img {
+  width: 300px;
+  height: 200px;
+  border-radius: 0;
+}
+
+.result-card {
+  background-color: #93b1a6;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.result-card h3 {
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .slide {
@@ -534,7 +583,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #040d12;
 }
 
 .nav-toggle {
@@ -550,8 +599,13 @@ pre code {
   }
   .site-header {
     align-items: center;
+    width: 100%;
+    position: relative;
   }
   .logo img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     height: 50px;
     width: 50px;
   }
@@ -581,7 +635,7 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-  .main img {
+  .landingpage img {
     width: 200px;
     height: 200px;
   }
@@ -600,10 +654,16 @@ pre code {
   .sidebar {
     padding-right: 0;
     border-right: 0;
-    border-bottom: 1px solid #739072;
+    border-bottom: 1px solid #93b1a6;
   }
   .sidebar ul {
     flex-direction: row;
+  }
+  .result-card {
+    flex-direction: column-reverse;
+  }
+  .result-card img {
+    width: 100%;
   }
 }
 /*!
@@ -6718,28 +6778,4 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  line-height: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  background-color: #eee;
-  color: #181818;
-}
-
-p,
-td,
-th,
-li,
-dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 }

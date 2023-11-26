@@ -16,7 +16,7 @@
 
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $font-color;
 }
 
 .nav-toggle {
@@ -34,9 +34,14 @@
 
     .site-header {
         align-items: center;
+        width: 100%;
+        position: relative;
     }
 
     .logo img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         height: 50px;
         width: 50px;
     }
@@ -72,7 +77,7 @@
         cursor: pointer;
     }
 
-    .main img {
+    .landingpage img {
         width: 200px;
         height: 200px;
     }
@@ -94,10 +99,18 @@
     .sidebar {
         padding-right: 0;
         border-right: 0;
-        border-bottom: 1px solid $background-alternative-color;
+        border-bottom: 1px solid $highlights;
 
         ul {
             flex-direction: row;
+        }
+    }
+
+    .result-card {
+        flex-direction: column-reverse;
+
+        img {
+            width: 100%;
         }
     }
 }

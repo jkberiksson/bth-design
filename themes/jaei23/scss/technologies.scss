@@ -1,20 +1,20 @@
-.landingpage {
+.technologies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
 .box {
-    background-color: $background-alternative-color;
+    background-color: $highlights;
     padding: 20px;
     text-align: center;
 
     a {
-        color: $font-alternative-color;
+        color: $font-color;
     }
 }
 
-.landingpage h1 {
+.technologies h1 {
     grid-column: span 3;
     justify-self: center;
 }

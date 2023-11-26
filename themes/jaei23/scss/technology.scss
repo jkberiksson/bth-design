@@ -1,4 +1,4 @@
-.main.technology {
+.technology {
     display: flex;
     gap: 1rem;
 }
@@ -6,11 +6,11 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    border-right: 1px solid $background-alternative-color;
+    border-right: 1px solid $highlights;
     padding-right: 1rem;
 
     .title {
-        color: $background-alternative-color;
+        color: $font-color;
     }
 
     ul {

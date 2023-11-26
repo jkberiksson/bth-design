@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'footer';
+@import 'base';
+@import 'technologies';
+@import 'technology';
+@import 'report';
+@import 'mobile-menu';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+img {
+    filter: brightness(80%) contrast(120%);
+}
