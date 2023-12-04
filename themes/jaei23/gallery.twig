@@ -1,0 +1,56 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gallery">
+            <div class="grid">
+                <h1 class="title">Gallery</h1>
+                <a href="{{ base_url }}/image/newyork1.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork1.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork1.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+                <a href="{{ base_url }}/image/newyork2.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork2.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork2.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+                <a href="{{ base_url }}/image/newyork3.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork3.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork3.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+                <a href="{{ base_url }}/image/newyork4.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork4.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork4.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+                <a href="{{ base_url }}/image/newyork5.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork5.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork5.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+                <a href="{{ base_url }}/image/newyork6.jpg" target="_blank">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="{{ base_url }}/image/newyork6.jpg&w=400">
+                        <img class="grid-img" src="{{ base_url }}/image/newyork6.jpg&w=767" alt="New York">
+                    </picture>
+                </a>
+            </div>
+            <div class="embed-container">
+                <iframe src="https://www.youtube.com/embed/8nEbNJZ37zs" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

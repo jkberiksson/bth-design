@@ -23,11 +23,16 @@
     display: none;
 }
 
+@media (max-width: 900px) {
+    .header .nav a {
+        font-size: 0.8rem;
+    }
+}
+
 @media (max-width: 767px) {
     body {
         font-size: 0.9rem;
     }
-
     .header {
         flex-direction: column;
     }
@@ -113,6 +118,22 @@
             width: 100%;
             object-fit: cover;
             object-position: top;
+        }
+    }
+
+    .gallery {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+        }
+
+        .grid-img {
+            height: 300px;
+        }
+
+        .title {
+            grid-column: 1 / 1;
         }
     }
 }
