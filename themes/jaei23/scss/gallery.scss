@@ -5,8 +5,9 @@
         gap: 1rem;
     }
 
-    .title {
-        grid-column: 1 / 4;
+    h1 {
+        grid-column: span 3;
+        justify-self: self-start;
     }
 
     .grid-img {

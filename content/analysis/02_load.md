@@ -20,7 +20,7 @@ För att utföra analysen använder jag mig utav Googles verktyg PageSpeed Insig
 
 Resultatet av analysen är att alla dessa sidor har förbättringspotential. Webbplatsernas prestanda är alla under 40 på mobil och under 70 på desktop. Något som är gemensamt för alla webbplatserna är att dom bör använda bilder med rätt storlek men också skicka dom med rätt format. En annan grej dom har gemensamt är att dom kan reducera javascript som inte används.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_fD0jLOYppgVFiSKvrFjOZyeTzr_6l8MFzYQUTAkU7DAAScUe9kMuHgW9CCkqz-0NyOF-O-KVYT_1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="Result from excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_fD0jLOYppgVFiSKvrFjOZyeTzr_6l8MFzYQUTAkU7DAAScUe9kMuHgW9CCkqz-0NyOF-O-KVYT_1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ### Kalmar FF
 
@@ -38,7 +38,7 @@ Resultatet av analysen är att alla dessa sidor har förbättringspotential. Web
 
 Som jag skrev i resultatet så presterar dessa sidor rent generellt ganska dåligt enligt mig. Den största boven är felhantering av bilder. Inte bara att dom skickas i fel format. Dom är dessutom alldeles för stora och inte optimerade rätt. Det är för mig lite förvånande då jag vet att att fotbollsklubbar, framförallt dom stora som liverpool och barcelona, lägger en hel del tid och pengar på sociala medier och hur dom uppfattas utåt sett över internet. Sedan blir jag även förvånad över hur resultatet för kalmarff.se blev då sidan är gjord av Kalmars, enligt mig, bästa byrå. Dom om någon borde veta hur man levererar en webbplats som presterar bra resultat. Om man kollar på det som är lite mer positivt så är det att alla webbplatserna är ganska SEO-friendly. Generellt sett är det bra för då hamnar dom bland högt upp bland sökmotorerna. Dock tror jag inte det påverkar dessa webbplatsers besökare speciellt mycket då jag tror att dom som söker sig till deras sidor vet vilken väg dom ska gå.
 
-#### Rangordning
+## Rangordning
 
 <ol>
     <li>FC Barcelona</li>

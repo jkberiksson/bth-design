@@ -356,7 +356,6 @@ pre code {
   height: 100px;
 }
 .header img {
-  border-radius: 100%;
   width: 100px;
   height: 100px;
 }
@@ -386,6 +385,14 @@ pre code {
 
 .hidden {
   display: none !important;
+}
+
+.header li {
+  transition: transform 0.2s;
+}
+
+.header li:hover {
+  transform: scale(1.1);
 }
 
 .footer {
@@ -455,14 +462,19 @@ dd {
 }
 
 .landingpage img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 100%;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
   left: 50%;
   position: relative;
   transform: translateX(-50%);
   margin: 30px 0;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: 3px solid #5c8374;
+  padding-bottom: 10px;
 }
 
 .technologies {
@@ -482,7 +494,7 @@ dd {
 
 .technologies h1 {
   grid-column: span 3;
-  justify-self: center;
+  justify-self: self-start;
 }
 
 .box-1 {
@@ -559,7 +571,6 @@ iframe {
   display: flex;
   gap: 2rem;
   padding: 2rem;
-  border-radius: 1rem;
   margin-bottom: 1rem;
 }
 .result-card img {
@@ -577,8 +588,9 @@ iframe {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
-.gallery .title {
-  grid-column: 1/4;
+.gallery h1 {
+  grid-column: span 3;
+  justify-self: self-start;
 }
 .gallery .grid-img {
   width: 100%;
